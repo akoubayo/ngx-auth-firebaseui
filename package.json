@@ -4,12 +4,12 @@
   "version": "3.4.1",
   "homepage": "https://ngx-auth-firebaseui.firebaseapp.com",
   "author": {
-    "name": "anthonynahas",
-    "url": "https://github.com/anthonynahas"
+    "name": "akoubayo",
+    "url": "https://github.com/akoubayo"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/anthonynahas/ngx-auth-firebaseui.git"
+    "url": "git://github.com/akoubayo/ngx-auth-firebaseui.git"
   },
   "license": "MIT",
   "schematics": "./schematics/collection.json",
@@ -29,7 +29,7 @@
     "ssr"
   ],
   "bugs": {
-    "url": "https://github.com/anthonynahas/ngx-auth-firebaseui/issues"
+    "url": "https://github.com/akoubayo/ngx-auth-firebaseui/issues"
   },
   "private": true,
   "scripts": {
@@ -50,7 +50,7 @@
     "test:watch": " gulp test:watch",
     "demo": " gulp build:demo",
     "extract": "ng xi18n --output-path=locale",
-    "check-travis": " travis-status --repo=anthonynahas/ngx-auth-firebaseui --branch=master --fail-pending || echo 'Not yet passing'"
+    "check-travis": " travis-status --repo=akoubayo/ngx-auth-firebaseui --branch=master --fail-pending || echo 'Not yet passing'"
   },
   "dependencies": {
     "@angular-material-extensions/password-strength": "^4.0.1",
