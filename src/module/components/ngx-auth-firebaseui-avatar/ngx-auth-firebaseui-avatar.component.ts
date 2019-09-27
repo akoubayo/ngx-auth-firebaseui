@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {AngularFireAuth} from '@angular/fire/auth';
+import {AngularFireAuth} from 'angularfire2/auth';
 import {User} from 'firebase';
 import {Observable} from 'rxjs';
 import {MatDialog} from '@angular/material';

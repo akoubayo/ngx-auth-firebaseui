@@ -8,9 +8,9 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 
 import {MatButtonModule, MatCheckboxModule, MatDialogModule, MatIconModule, MatInputModule, MatSnackBarModule} from '@angular/material';
 
-import {AngularFireModule} from '@angular/fire';
-import {AngularFirestore} from '@angular/fire/firestore';
-import {AngularFireAuth} from '@angular/fire/auth';
+import {AngularFireModule} from 'angularfire2';
+import {AngularFirestore} from 'angularfire2/firestore';
+import {AngularFireAuth} from 'angularfire2/auth';
 
 import {NgxAuthFirebaseuiRegisterComponent} from './ngx-auth-firebaseui-register.component';
 import {AuthProcessService} from '../../services/auth-process.service';

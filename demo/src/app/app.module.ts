@@ -12,7 +12,7 @@ import {ServiceWorkerModule} from '@angular/service-worker';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {ClipboardModule} from 'ngx-clipboard';
 import {Angulartics2Module} from 'angulartics2';
-import {AngularFireModule} from '@angular/fire';
+import {AngularFireModule} from 'angularfire2';
 import {HighlightModule} from 'ngx-highlightjs';
 import {NgxAuthFirebaseUIModule} from 'ngx-auth-firebaseui';
 import {firebaseKey} from './firebase.config';

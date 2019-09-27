@@ -1,5 +1,5 @@
 import { Component, EventEmitter, forwardRef, Inject, Input, Output } from '@angular/core';
-import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFireAuth } from 'angularfire2/auth';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatFormFieldAppearance, MatSnackBar } from '@angular/material';
 import { User } from 'firebase';

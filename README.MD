@@ -179,7 +179,7 @@ by starring :star: and sharing it :loudspeaker:
 - [angular animations - v8.x](https://www.npmjs.com/package/@angular/animations)
 - [angular router - v8.x](https://www.npmjs.com/package/@angular/router)
 - [angular flex-layout v8.0.0-beta.26](https://www.npmjs.com/package/@angular/flex-layout)
-- [@angular/fire - v5.2.x](https://www.npmjs.com/package/@angular/fire)
+- [angularfire2 - v5.2.x](https://www.npmjs.com/package/angularfire2)
 - [firebase - v6.x](https://www.npmjs.com/package/firebase)
 
 the full tutorial guide can be found [here](https://ngx-auth-firebaseui.firebaseapp.com/getting-started)
@@ -307,7 +307,7 @@ automatically change to `column`
     "@angular/flex-layout": "^8.0.0-beta.26",
     "@angular/forms": "^8.x",
     "@angular/material": "^8.x",
-    "@angular/fire": "5.2.x",
+    "angularfire2": "5.2.x",
     "firebase": "6.x",
   }
 ```
@@ -369,7 +369,7 @@ npm i -s @angular/material @angular/cdk @angular/flex-layout @angular/forms @ang
 
 Firebase deps
 ```bash
-npm i -s firebase @angular/fire
+npm i -s firebase angularfire2
 ```
 
 ` -> continue by following the instructions ` [here](https://github.com/anthonynahas/ngx-auth-firebaseui/tree/master/docs/INSTRUCTIONS.md) 

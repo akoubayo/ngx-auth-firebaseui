@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit, ViewEncapsulation} from '@angular/core';
 import {Title} from '@angular/platform-browser';
-import {AngularFireAuth} from '@angular/fire/auth';
+import {AngularFireAuth} from 'angularfire2/auth';
 import {AuthProvider, Theme} from 'ngx-auth-firebaseui';
 import {MatSnackBar} from '@angular/material/snack-bar';
 import {MatTabChangeEvent} from '@angular/material/tabs';
